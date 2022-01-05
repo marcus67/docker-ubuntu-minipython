@@ -7,10 +7,3 @@ RUN apt-get update && \
             python3-pip \
             curl && \
     pip3 install --upgrade pip
-RUN DEBIAN_FRONTEND=noninteractive \
-        apt-get install -y \
-            gxmessage
-RUN DEBIAN_FRONTEND=noninteractive \
-        apt-get install -y \
-            ffmpeg
-    
