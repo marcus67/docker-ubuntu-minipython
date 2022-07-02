@@ -1,4 +1,4 @@
-FROM ubuntu:20.04
+FROM ubuntu:21.10
 LABEL maintainer = "marcus.rickert@web.de"
 RUN apt-get update && \
     DEBIAN_FRONTEND=noninteractive \
