@@ -1,3 +1,2 @@
-VERSION=release-0.9.1
-
-git tag -fa ${VERSION} -m "Version ${VERSION}"
+. version.sh
+git tag -fa ${VERSION_TAG} -m "Version ${VERSION}"
