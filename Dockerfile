@@ -7,4 +7,4 @@ RUN apt-get update && \
             python3-minimal \
             python3-pip \
             curl && \
-    pip3 install --upgrade pip
+    pip3 install --break-system-packages --upgrade pip
